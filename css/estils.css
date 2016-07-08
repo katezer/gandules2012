@@ -1,0 +1,261 @@
+img {
+	width: 200px;
+}
+
+strong {
+	font-weight: bold;
+}
+.clear {
+	clear: both;
+}
+
+
+/*********/
+html, body {
+	background-color: #F3F3F3;
+	font-family: Helvetica, Arial;
+	color: #004165;
+}
+#page {
+	width: 910px;
+	margin: 0 auto;
+}
+
+
+/******* IDIOMES ******/
+#menu_idiomes {
+	margin-top: 10px;
+	font-size: 11px;
+	text-align: right;
+}
+#menu_idiomes a {
+	color: #7CA4C4;
+	text-decoration: none;
+}
+#menu_idiomes a:hover {
+	text-decoration: underline;
+}
+#menu_idiomes a.select {
+	font-weight: bold;
+	color: #004165;
+}
+
+
+/********* HEAD *********/
+#head {
+	margin-top: 65px;
+}
+#presentacio {
+	width: 530px;
+	float: left;
+}
+#presentacio .presenten {
+	font-weight: bold;
+	font-size: 15px;
+	margin-bottom: 5px;
+}
+h1 {
+	display: block;
+	width: 530px;
+	height: 206px;
+	text-indent: -9999px;
+	margin-bottom: 25px;
+}
+h1.ca {background: url(../img/titol_gandules_ca.png) no-repeat;}
+h1.es {background: url(../img/titol_gandules_es.png) no-repeat;}
+h1.en {background: url(../img/titol_gandules_en.png) no-repeat;}
+
+#intro p {
+	margin-bottom: 30px;
+	font-size: 17px;
+}
+.programacio {
+	display: block;
+	background: #004165;
+	color: #F3F3F3;
+	border: 2px solid #004165;
+	font-size: 19px;
+	font-weight: bold;
+	text-decoration: none;
+	float: left;
+	padding: 8px 13px 6px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+}
+.programacio:hover {
+	background: #FFF;
+	color: #004165;
+}
+
+/********* RANKING *********/
+#ranquing {
+	float: right;
+	font-size: 19px;
+	max-width: 325px;
+}
+h2 {
+	font-size: 19px;
+	font-weight: bold;
+	padding-bottom: 15px;
+	border-bottom: #004165 dashed 1px;
+	margin-bottom: 15px;
+}
+#ranquing ul li {
+	margin-bottom: 12px;
+	display: block;
+}
+#ranquing ul li.first {
+	font-weight: bold;
+	background: url(../img/ranquing_first.png) no-repeat;
+	left: -30px;
+    padding-left: 30px;
+    position: relative; 
+    height: 22px;                               
+}
+#ranquing ul li span {
+	font-size: 14px;
+	font-style: italic;
+}
+
+#ranquing_list {
+	padding-bottom: 15px;
+}
+
+
+/********* LLISTAT PEL·LICULES *********/
+#llistat_pelicules {
+	margin-top: 15px;
+}
+#llistat_pelicules ul {
+	padding: 20px 0 50px;
+	width: 970px;
+}
+#llistat_pelicules li {
+	width: 430px;
+	display: inline-block;
+	vertical-align: top;
+	margin: 0 50px 50px 0;
+}
+#llistat_pelicules li .sup {
+	border-bottom: #004165 solid 1px;
+	margin-bottom: 15px;
+	padding-bottom: 15px;
+}
+#llistat_pelicules li .sup .sup_titol{
+	float: left;
+	width: 285px;
+}
+#llistat_pelicules li .sup .titol {
+	font-size: 19px;
+	font-weight: bold;
+}
+#llistat_pelicules li .sup .autor {
+	color: #333;
+	font-size: 13px;
+}
+#llistat_pelicules li .sup .vota {
+	float: right;
+	height: 26px;
+	padding: 6px 45px 0 0;
+	background: url(../img/vota.png) no-repeat top right;
+	text-decoration: none;
+	color: #004165;
+	font-weight: bold;
+	font-size: 20px;
+}
+#llistat_pelicules li .desc .film_thumb {
+	float: left;
+}
+#llistat_pelicules li .desc .film_thumb img {
+	height: 150px;
+	width: 150px;
+}
+#llistat_pelicules li .desc .sinopsi {
+	color: #666;
+	font-size: 12px;
+	float: right;
+	width: 265px;
+}
+#llistat_pelicules li .vota {
+	display: none;
+}
+
+/********* FOOT *********/
+#foot {
+	position: relative;
+	top: -30px;
+	margin-bottom: 0px;
+}
+#foot p {
+	float: left;
+	margin-right: 50px;
+}
+#foot p span {
+	display: block;
+	height: 41px;
+	text-indent: -9999px;
+}
+#foot p .cccb {
+	width: 152px;
+	background: url(../img/logo_cccb.png) no-repeat;
+	margin-top: 10px;
+}
+#foot p .gasnatural {
+	width: 115px;
+	height: 52px;
+	background: url(../img/logo_gasnatural.png) no-repeat;
+	float: left;
+}
+#foot p small {
+	float: left;
+	font-size: 11px;
+	margin-right: 10px;
+}
+
+
+
+#fancybox-content {
+	border: 10px solid #004165 !important;
+}
+#popup_box {
+	display: none;
+}
+#popup {
+	width: 300px;
+	height: 100px;
+	background-color: #F3F3F3;
+	padding: 20px;
+}
+#popup .titol {
+	text-align: center;
+	font-weight: bold;
+	margin-top: 5px;
+}
+#popup .comparteix {
+	text-align: center;
+	font-size: 11px;
+	margin-top: 25px;
+}
+#popup .social {
+	margin: 0 auto;
+	width: 74px;
+	margin-top: 5px;
+}
+#popup .social a {
+	display: block;
+	width: 32px;
+	height: 32px;
+	text-indent: -9999px;
+	float: left;
+	opacity: 0.7;
+}
+#popup .social a:hover {
+	opacity: 1;
+}
+#popup .social a.facebook {background: url(../img/facebook_32.png) no-repeat; margin-right: 10px;}
+#popup .social a.twitter {background: url(../img/twitter_32.png) no-repeat;}
+
+.nota {
+	font-size: 10px;
+	padding-top: 20px;
+}
